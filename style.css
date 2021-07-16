@@ -1,0 +1,53 @@
+input {
+  width: 31%;
+  margin-top: 100px;
+  border: 3px solid grey;
+  font-size: 4vh;
+  border-radius: 6px;
+}
+h1 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.container {
+  text-align: center !important;
+}
+
+table {
+  margin: auto;
+  padding-top: 40px;
+}
+
+button {
+  width: 80px;
+  height: 60px;
+  margin: 3px;
+  border-radius: 3px;
+  font-size: 4vh;
+  background-color: pink;
+}
+button:hover {
+  background-color: rgb(233, 224, 233);
+}
+body {
+  background-color: whitesmoke;
+}
+
+@media (max-width: 322px) {
+  input {
+    width: 100%;
+  }
+  h1 {
+    margin-left: 15px;
+  }
+  button {
+    width: 65px;
+  }
+}
+
+@media (max-width: 769px) {
+  input {
+    width: 100%;
+  }
+}
